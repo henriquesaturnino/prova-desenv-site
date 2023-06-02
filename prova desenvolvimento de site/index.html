@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Café do Bairro</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    
+    <body class="body">
+
+        <header id="inicio">
+            <h1>Café do Bairro</h1>
+            <a href="#inicio"> Inicio</a>
+            <a href="#quem_somos"> Quem somos</a>
+            <a href="#menu">Menu</a>
+            <a href="#localizacao">Localização</a>
+            <a href="#contato">Contato</a>
+        </header>
+
+        <section>
+            <article class="cafeteria">
+                <img 
+                id="ambiente"
+                src="./img/cafeteria.jpeg"
+                >
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2 id="quem_somos">Quem somos</h2>
+                    <p> ipsum, dolor sit amet consectetur adipisicing elit. Illum excepturi at maxime, 
+                    possimus autem incidunt error, voluptatibus nobis <br> quasi cupiditate cum quos optio vel.
+                    ipsum, dolor sit amet consectetur adipisicing elit. Illum excepturi at maxime, 
+                    possimus <br> autem incidunt error, voluptatibus nobis quasi cupiditate cum quos optio vel
+                    </p>
+                    <p>ipsum, dolor sit amet consectetur adipisicing elit. Illum excepturi at maxime, 
+                    possimus autem incidunt error, voluptatibus nobis <br> quasi cupiditate cum quos optio vel.
+                    ipsum, dolor sit amet consectetur adipisicing elit. Illum excepturi at maxime, 
+                    possimus <br> autem incidunt error, voluptatibus nobis quasi cupiditate cum quos optio vel
+                    </p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2 id="menu">Menu</h2>
+                
+                <label for="cafe_pqno"></label>
+                <img 
+                id="cafe_pqno"
+                src="./img/cafe-pqno.jpg"
+                width="350"
+                height="380">
+                <P>Café pequeno <br> R$2,50un</P>
+
+                <label for="cafe_medio"></label>
+                <img 
+                id="cafe_medio"
+                src="./img/cafe-medio.jpg"
+                width="350"
+                height="380">
+                <P>Café médio <br> R$3,50un</P>
+                
+                <label for="cafe_choco"></label>
+                <img 
+                id="cafe_choco"
+                src="./img/cafe-com-choco.webp"
+                width="350"
+                height="350">
+                <P>Café com chocolate <br> R$5,50un</P>
+                
+                <label for="cafe_chant"></label>
+                <img 
+                id="cafe_chant"
+                src="./img/cafe-com-chant.jpg"
+                width="350"
+                height="450">
+                <P>Café com Chantilly <br> R$8,50un</P>
+
+                <label for="pao_de_queijo"></label>
+                <img 
+                id="pao_de_queijo"
+                src="./img/pao-de-queijo.jpg"
+                width="350"
+                height="380">
+                <P>Pão de queijo <br> R$ 15,39kg </P>
+
+                <label for="croissant_recheado"></label>
+                <img 
+                id="croissant_recheado"
+                src="./img/croissant-recheado.webp"
+                width="350"
+                height="380">
+                <P>Croissant recheado <br> R$ 17,39kg</P>
+
+                <label for="bolo_choco"></label>
+                <img 
+                id="bolo_choco"
+                src="./img/bolo-de-chocolate.jpg"
+                width="350"
+                height="380">
+                <P>Bolo de chocolate <br> R$ 55,39kg </P>
+
+            </article>
+            
+        </section>
+
+        <section>
+            <article>
+                <h2 id="localizacao">Onde estamos localizados</h2>
+                <label for="loc"></label>
+                <img 
+                id="loc"
+                src="img/localizacao.png"
+                width="700"
+                height="480">
+                
+                <p>R. São Marcos, 457 - Carniel, Gramado - RS, 95670-000 <br>
+                    Telefone: (054) 3286-4188 <br>
+                    Horário de atendimento: 08h às 22h <br>
+                </p>
+            </article>
+        </section>
+
+        <footer>
+            <h2 id="contato">Entre em contato</h2>
+            <form>
+                <label for="nome_completo"></label>
+                <input type="text" id="nome" placeholder="Nome completo"><br>
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="E-mail"><br>
+                <label for="contato"></label>
+                <input type="text" id="contato_cliente" placeholder="Telefone"><br><br>
+                <textarea name="mensagem" id="texto" cols="30" rows="10"></textarea><br>
+                <button id="enviar" disabled>Enviar formulário</button>
+            </form>
+        </footer>
+
+        <script src="form.js"></script>
+    </body>
+</html>
